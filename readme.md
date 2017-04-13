@@ -74,3 +74,7 @@ And _finally,_ I edited and added to this file!
 * Display **additional weather data**. Possibly by clicking a day and having a panel fold out with detailed information.
 * Since I didn't design this with a mobile-first mindset, the mobile view only allows for vertical scrolling. If I had more time, I'd make each day **horizontally "swipeable"**.
 * **More tests**. The _parseWeatherData_ function could use a test to validate that a provided input should return an expected output. I wanted to write this, but even after a few hours of searching, I wasn't sure how to test a function that wasn't part of a component using Jest. I'm sure I could download another framework / eventually figure it out, but alas, _time_.
+
+### Want to check out this app without building the project?
+
+Take a look at it on my site here: [http://www.comradebrad.com/side_projects/WeatherForecast/](http://www.comradebrad.com/side_projects/WeatherForecast/)
