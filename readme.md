@@ -69,7 +69,7 @@ And _finally,_ I edited and added to this file!
 
 **There's so much I could do.** The fact that this exercise doesn't have an explicit time limit *made me want to do everything possible,* but after my third day of working on this, I had to tell myself, *"Brad, you've got to stop somewhere!"*
 
-* First of all, **the weather data doesn't seem to be quite correct.** It's odd,* although I've debugged it many times,* **the data shows warmer temperatures at midnight than at noon**, like they should be reversed, along with the surrounding data. I figured problems with the API aren't up to me, though, so I've let that one go.
+* First of all, **the weather data doesn't seem to be quite correct.** It's odd, although I've debugged it many times, **the data shows warmer temperatures at midnight than at noon**, like they should be reversed, along with the surrounding data. I figured problems with the API aren't up to me, though, so I've let that one go.
 * The location for weather is hard-coded to "Denver" right now. Anyone with access to the code can easily change that value, but it would certainly be nice to have some kind of field for **inputting a location** on the app. I thought of using geolocation, but that requires https, which would require a certificate. I also played around with an input box, but after an initial attempt, it seemed like it was going to make this project take *much* longer.
 * Display **additional weather data**. Possibly by clicking a day and having a panel fold out with detailed information.
 * Since I didn't design this with a mobile-first mindset, the mobile view only allows for vertical scrolling. If I had more time, I'd make each day **horizontally "swipeable"**.
