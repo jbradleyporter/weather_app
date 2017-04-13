@@ -5,6 +5,7 @@ You will need to have [Node](https://nodejs.org/en/download/) installed to run t
 ### Running the application in development mode
 
 ```sh
+$ npm install
 $ npm start
 ```
 
@@ -64,7 +65,7 @@ Almost done -- time to upload the project and ensure that it works for others wi
 
 And _finally,_ I edited and added to this file!
 
-### If I had more time
+### If I had more time...
 
 **There's so much I could do.** The fact that this exercise doesn't have an explicit time limit *made me want to do everything possible,* but after my third day of working on this, I had to tell myself, *"Brad, you've got to stop somewhere!"*
 
@@ -73,4 +74,3 @@ And _finally,_ I edited and added to this file!
 * Display **additional weather data**. Possibly by clicking a day and having a panel fold out with detailed information.
 * Since I didn't design this with a mobile-first mindset, the mobile view only allows for vertical scrolling. If I had more time, I'd make each day **horizontally "swipeable"**.
 * **More tests**. The _parseWeatherData_ function could use a test to validate that a provided input should return an expected output. I wanted to write this, but even after a few hours of searching, I wasn't sure how to test a function that wasn't part of a component using Jest. I'm sure I could download another framework / eventually figure it out, but alas, _time_.
-* Currently, there are warnings thrown when running the tests... but that only seems to be happening because Enzyme currently hasn't been updated for React 15.5. A pull request is pending, so once that comes through, an **update to Enzyme** should fix the warnings.
