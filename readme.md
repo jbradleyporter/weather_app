@@ -1,6 +1,6 @@
 ## 5 Day Forecast Weather App
 
-You will need to have [Node](https://nodejs.org/en/download/) installed to run this project's 'npm' statements. All of the following commands should be run from the root directory of 'weather_app'.
+You will need to have [Node](https://nodejs.org/en/download/) installed to run this project's 'npm' statements. All of the following commands should be run from the root directory of the project.
 
 ### Running the application in development mode
 
